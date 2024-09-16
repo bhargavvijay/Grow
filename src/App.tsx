@@ -132,13 +132,14 @@ const App: React.FC = () => {
   const customSelectionButton = () => {
     return (
       <Button 
-        icon="pi pi-list" 
+        icon="pi pi-chevron-down" 
         onClick={toggleExpand} 
         tooltip="Custom Selection" 
         className="p-button-rounded p-button-text"
       />
     );
   };
+  
 
   return (
     <div className="card">
